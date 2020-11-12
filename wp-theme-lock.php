@@ -12,7 +12,7 @@
 add_action(
 	'setup_theme',
 	function() {
-		$theme_directory_name = apply_filters( 'wp_force_theme', 'wp-headless-theme' );
+		$theme_directory_name = apply_filters( 'wp_theme_lock', 'wp-headless-theme' );
 
 		/**
 		 * Filters the name of the current theme.
