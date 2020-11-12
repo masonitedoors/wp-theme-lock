@@ -1,0 +1,16 @@
+{
+  "name": "masonitedoors/wp-theme-lock",
+  "description": "An mu-plugin that forces a WordPress theme to always be active. Requires https://github.com/masonitedoors/wp-headless-theme.",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joseph Fusco",
+      "homepage": "https://github.com/josephfusco",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  }
+}
